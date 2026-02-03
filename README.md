@@ -1,5 +1,5 @@
 # practical4
-Aim: 
+Aim: Study of set in a Python
 
 Theory : Theory: Python Sets and Frozensets
 In Python, a Set is a built-in data type used to store collections of data. It is defined by three primary characteristics:
