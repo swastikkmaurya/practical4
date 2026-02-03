@@ -1,7 +1,7 @@
 # practical4
 Aim: 
 
-theory : Theory: Python Sets and Frozensets
+Theory : Theory: Python Sets and Frozensets
 In Python, a Set is a built-in data type used to store collections of data. It is defined by three primary characteristics:
 
 Unordered: The items do not have a defined order; they may appear in a different order every time you use them and cannot be referred to by an index.
@@ -26,7 +26,7 @@ Frozensets
 
 A frozenset is an immutable version of a Python set. Once created, elements cannot be added, removed, or modified. This makes them "hashable," meaning they can be used as keys in a dictionary or as elements of another set.
 
-Algorithms
+Algorithms:
 
 Set Creation & Uniqueness: Initialize a collection using curly braces or set() to store unique, unordered elements.
 
@@ -53,3 +53,10 @@ Problem 3 (Exclusivity): Calculate the intersection for "both clubs" and the sym
 Problem 4 (Absence): Subtract the "present" set from the "total" set to isolate the remaining "absent" elements.
 
 Problem 5 (Entry Removal): Invoke the .discard() method to remove a specific invalid key without triggering an error if the key is missing.
+
+Conclusion :
+This experiment demonstrates that Python Sets are a powerful and efficient tool for handling collections of unique data where order is irrelevant. Through the implementation of various problem statements, we conclude that:
+
+Efficiency: Sets are highly optimized for membership testing (in operator) and removing duplicates compared to lists, making them ideal for large-scale data filtering like participant registration.
+
+Mathematical Utility: The built-in operators for Union, Intersection, and Difference allow for complex logical comparisons (like finding common elective subjects or identifying absent students) to be performed with concise, readable code.
